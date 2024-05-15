@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>drowning sorrows</title>
+  <link href="notyue.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="background">
+    <img src="yue copy.png">
+  </div>
+  
+ <div class="containers">
+    <div class="nav">
+      <!-- <div class="home">
+        <a href="index.html">home</a>
+      </div> -->
+      <div class="links">
+        <a href="index.html">breakdown</a>
+        <a href="koko.html">silent abyss</a>
+        <a href="notyue.html">drowning sorrows</a>
+        <a href="noise.html">eternal wavering</a>
+      </div>
+    </div>
+ </div>
+   
+  <div id="container"</div>
+  <script type="text/javascript">
+    let bg = document.getElementById('container');
+    let count = 20;
+    for (let i = 0; i < count; i++){
+      let glitchBox = document.createElement('div')
+        glitchBox.className = 'box';
+        bg.appendChild(glitchBox); 
+    }
+    setInterval(function(){
+    let glitch = document.getElementsByClassName('box');
+    for (let i = 0; i < glitch.length; i++){
+      glitch[i].style.left = Math.floor(Math.random()*100) + 'vw';
+      glitch[i].style.top = Math.floor(Math.random()*100) + 'vh';
+      glitch[i].style.width = Math.floor(Math.random()*400) + 'px';
+      glitch[i].style.height = Math.floor(Math.random()*100) + 'px';
+      glitch[i].style.backgroundPosition = Math.floor(Math.random()*50) + 'px';
+      }
+    },200)
+      
+  </script>
+</body>
+</html>

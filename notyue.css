@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; /* Disable overflow to prevent scrolling */
+  }
+  
+  .containers {
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  /* .background {
+    position: absolute;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  } 
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust this value to change the width of the image 
+    height: 100%; /* Adjust this value to change the height of the image 
+    background-image: url(getian1redo.jpeg);
+    background-size: cover; /* This property ensures the image covers the entire container 
+    background-repeat: no-repeat;
+  } */
+  
+  .background {
+    position: fixed; /* Change to fixed positioning to prevent scrolling */
+    top: 0;
+    left: 0;
+    width: 100%; /* Set width to cover the entire viewport */
+    height: 100%; /* Set height to cover the entire viewport */
+    background-image: url(yue\ copy.png);
+    background-size: cover; /* Maintain aspect ratio and cover the entire container */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+  }
+  
+  .links {
+    display: flex;
+    gap: 2em;
+    justify-content: flex-end; /* Aligns the text to the right */
+    padding-right: 20px; /* Adjust this value to add space on the right */
+    margin-top: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Neue Montreal";
+    pointer-events: auto;
+  }
+  
+  .logo a {
+    font-family: "Proxy_Mono_Beta";
+    text-transform: undercase;
+  }
+  
+  #container
+  {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url(yue\ copy.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .box
+  {
+    position: absolute;
+    background: url(yue\ copy.png);
+    background-attachment: fixed;
+    background-size:  100%;
+    background-repeat: no-repeat;
+  }
